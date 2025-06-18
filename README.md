@@ -1,4 +1,4 @@
-# MarsaTag
+# The MarsaTag software
 
 Scientific fields: Natural Language Processing, Automatic tagging of the syntax of written and
 spoken French.
@@ -38,3 +38,47 @@ French written texts and speech transcriptions. Second Asian Pacific Corpus ling
 [Rauzy&Blache, 2009] Stéphane Rauzy, Philippe Blache. Un point sur les outils du LPL pour l'analyse
 syntaxique du français. Journée ATALA "Quels analyseurs syntaxiques pour le français ?", Oct 2009,
 Paris, France. pp.1-6. [⟨hal-00433879⟩](https://hal.science/hal-00433879v1)
+
+# Le logiciel MarsaTag
+
+Domaine d’activité : Traitement Automatique des Langues, étiquetage syntaxique automatique du français écrit ou parlé
+
+MarsaTag est un système qui permet de segmenter, d’étiqueter et d’analyser en chunks des
+productions du français. L’originalité de l’outil réside dans sa capacité à traiter autant du français écrit
+que de des transcriptions du français parlé. L’étiqueteur effectue les trois opérations suivantes. Un
+segmenteur à base de règles est d’abord appliqué au texte en entrée afin de le séparer en une séquence
+de tokens. Dans un deuxième temps, grâce à un lexique morphosyntaxique de large couverture, le
+système associe à chaque forme orthographique identifiant le token sa distribution de catégories
+morphosyntaxiques correspondantes. La dernière étape consiste à désambiguïser l’étiquetage en
+proposant en sortie la séquence d’étiquettes possédant la probabilité maximale. La probabilité d’une
+séquence est calculée à partir d’un modèle stochastique dans le cadre du formalisme de Chaines de
+Markov Cachées (HMM). Les états ou « patrons » du modèle ont été extrait de la ressource GraceLPL
+(700 000 tokens avec un étiquetage morphosyntaxique). La performance de l’étiqueteur atteint un
+score de F-mesure de 0.974. L’étiqueteur a été adapté pour traiter les transcriptions du français parlé
+(voir le chapitre « Annotations » du livre du LPL). Le système a été entraîné sur le CID (Bertrand et al.,
+2008), un grand corpus français de parole spontanée en interaction. Les phénomènes propres à l’oral
+(pause remplies, disfluences, troncations, …) ont été identifiés et inclus dans le modèle spécifique au
+traitement des transcriptions en entrée. La performance de l’étiqueteur pour l’oral (0.948 de F-mesure)
+a été évalué sur la correction manuelle des étiquettes morphosyntaxiques du CID. Le logiciel MarsaTag
+est distribué librement avec une interface graphique qui permet un vaste choix de format d’entrée
+sortie (url : https://www.ortolang.fr/market/tools/sldr000841).
+
+Sur cette page GitHub, vous pouvez télécharger les installeurs (.exe ou .jar) qui vous permettent d'installer sur votre ordinateur le logiciel MarsaTag (version 0.8.5) codé en java. 
+La documentation pdf de MarsaTag est dans le dossier dans lequel vous avez installé MarsaTag, i.e. MarsaTag\docs\MarsaTag-UI.pdf
+
+L'encodage des étiquettes morphosyntaxiques est donné dans le chapitre Annexes:Morphosyntactic tags de la documentation.
+Cet encodage est aussi résumé dans le document LPL_MSE.xml que vous pouvez charger ici.
+Par exemple, l'étiquette "Pp3msn-" encode l'information Pronoun (P), personal (p), third person (3), masculine (m), singular (s), nominative (n).
+
+REFERENCES
+
+[Rauzy et al., 2022] Stéphane Rauzy, Grégoire de Montcheuil, Philippe Blache. The MarsaTag software. Travaux Interdisciplinaires sur la Parole et le Langage, 2022, 38, ⟨10.4000/tipa.5735⟩. [⟨hal-03962331⟩](https://hal.science/hal-03962331v1)
+
+[Rauzy et al., 2014] Stéphane Rauzy, Grégoire Montcheuil, Philippe Blache. MarsaTag, a tagger for
+French written texts and speech transcriptions. Second Asian Pacific Corpus linguistics Conference, Mar
+2014, Hong Kong, China. pp.220-220. [⟨hal-01500736⟩](https://hal.science/hal-01500736v1)
+
+[Rauzy&Blache, 2009] Stéphane Rauzy, Philippe Blache. Un point sur les outils du LPL pour l'analyse
+syntaxique du français. Journée ATALA "Quels analyseurs syntaxiques pour le français ?", Oct 2009,
+Paris, France. pp.1-6. [⟨hal-00433879⟩](https://hal.science/hal-00433879v1)
+
