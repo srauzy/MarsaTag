@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<lpl_morphosyntax description="LPL Morphosyntactic features encoding for french"  version="1.0" date="06/12/2007" authors="Stéphane Rauzy" organization="Laboratoire Parole et Langage, CNRS &amp; Université de Provence, Aix-en-Provence, France">
+
+	<feature position="1" description="category">
+		<category value="A" description="adjective">
+			<feature position="2" description="nature">
+				<nature value="-" description="unspecified"/>
+				<nature value="f" description="qualifier" example="jolie"/>
+				<nature value="i" description="indefinite" example="chaque"/>
+				<nature value="s" description="possesive" example="leurs"/>
+				<nature value="o" description="ordinal" example="neuvième"/>
+				<nature value="k" description="cardinal"  example="huit"/>
+			</feature>
+			<feature position="3" description="type">
+				<type value="c" description="comparative" example="moindre"/>
+				<type value="p" description="others"/>
+				<type value="-" description="unspecified"/>
+			</feature>
+			<feature position="4" description="gender">
+				<gender value="m" description="masculine"/>
+				<gender value="f" description="feminine"/>
+			</feature>
+			<feature position="5" description="number">
+				<number value="s" description="singular"/>
+				<number value="p" description="plural"/>
+			</feature>
+			<feature position="6" description="unknown"/>
+		</category>
+		<category value="C" description="conjunction">
+			<feature position="2" description="nature">
+				<nature value="c" description="coordination" example="et"/>
+				<nature value="s" description="subordination" example="sinon"/>
+			</feature>
+		</category>
+		<category value="I" description="interjection" example="hein"/>
+		<category value="D" description="determiner">
+			<feature position="2" description="nature">
+				<nature value="-" description="unspecified"/>
+				<nature value="a" description="definite" example="le"/>
+				<nature value="d" description="demonstrative" example="cette"/>
+				<nature value="i" description="indefinite" example="plusieurs"/>
+				<nature value="s" description="possessive" example="mes"/>
+				<nature value="t" description="exclamative" example="quelle"/>
+				<nature value="k" description="cardinal" example="deux"/>
+			</feature>
+			<feature position="3" description="person">
+				<person value="-" description="unspecified"/>
+				<person value="1" description="first person"/>
+				<person value="2" description="second person"/>
+				<person value="3" description="third person"/>
+			</feature>
+
+			<feature position="4" description="gender">
+				<gender value="m" description="masculine"/>
+				<gender value="f" description="feminine"/>
+			</feature>
+			<feature position="5" description="number">
+				<number value="s" description="singular"/>
+				<number value="p" description="plural"/>
+			</feature>
+			<feature position="6" description="unknown"/>
+			<feature position="7" description="unknown"/>
+			<feature position="8" description="unknown"/>
+		</category>
+		<category value="N" description="noun">
+			<feature position="2" description="nature">
+				<nature value="-" description="unspecified"/>
+				<nature value="c" description="common"  example="pomme"/>
+				<nature value="p" description="proper without determiner" example="Paris"/>
+				<nature value="d" description="proper with determiner" example="Portugal"/>
+				<nature value="k" description="cardinal" example="deux"/>
+			</feature>
+			<feature position="3" description="gender">
+				<nature value="-" description="unspecified"/>
+				<gender value="m" description="masculine"/>
+				<gender value="f" description="feminine"/>
+			</feature>
+			<feature position="4" description="number">
+				<number value="s" description="singular"/>
+				<number value="p" description="plural"/>
+			</feature>
+			<feature position="5" description="unknown"/>
+			<feature position="6" description="unknown"/>
+		</category>
+		<category value="P" description="pronoun">
+			<feature position="2" description="nature">
+				<nature value="-" description="unspecified"/>
+				<nature value="d" description="demonstrative" example="ça"/>
+				<nature value="i" description="indefinite" example="certains"/>
+				<nature value="p" description="personal" example="je"/>
+				<nature value="r" description="relative" example="qui"/>
+				<nature value="s" description="possessive" example="le mien"/>
+				<nature value="t" description="interrogative" example="quoi"/>
+				<nature value="x" description="reflexive" example="se"/>
+				<nature value="k" description="cardinal" example="deux"/>
+			</feature>
+			<feature position="3" description="person">
+				<nature value="-" description="unspecified"/>
+				<person value="1" description="first person"/>
+				<person value="2" description="second person"/>
+				<person value="3" description="third person"/>
+			</feature>
+			<feature position="4" description="gender">
+				<nature value="-" description="unspecified"/>
+				<gender value="m" description="masculine"/>
+				<gender value="f" description="feminine"/>
+				<gender value="n" description="neutral"/>
+			</feature>
+			<feature position="5" description="number">
+				<nature value="-" description="unspecified"/>
+				<number value="s" description="singular"/>
+				<number value="p" description="plural"/>
+			</feature>
+			<feature position="6" description="case">
+				<nature value="-" description="unspecified"/>
+				<case value="n" description="nominative" example="elle"/>
+				<case value="j" description="accusative" example="le"/>
+				<case value="d" description="dative" example="te"/>
+				<case value="l" description="locative" example="où"/>
+				<case value="o" description="oblique" example="lui"/>
+				<case value="c" description="?" example="en"/>
+				<case value="i" description="?" example="en"/>
+			</feature>
+			<feature position="7" description="unknown"/>
+		</category>
+		<category value="R" description="adverb">
+			<feature position="2" description="nature">
+				<nature value="-" description="unspecified"/>
+				<nature value="g" description="general"  example="facilement"/>
+				<nature value="p" description="particule" example="ne"/>
+			</feature>
+			<feature position="3" description="type">
+				<type value="c" description="comparative" example="mieux"/>
+				<type value="d" description="negative" example="jamais"/>
+				<type value="n" description="negative" example="ne"/>
+				<type value="p" description="others" example="normalement"/>
+			</feature>
+		</category>
+		<category value="S" description="preposition">
+			<feature position="2" description="symbol 'p'"/>
+			<feature position="3" description="type">
+				<type value="a" description="preposition à"  example="à"/>
+				<type value="d" description="preposition de" example="de"/>
+				<type value="-" description="others"  example="avec"/>
+			</feature>
+			<feature position="4" description="symbol '+' indicates a fusion, else end of the features"/>
+			<feature position="5" description="fusion">
+				<fusion value="D" description="with a determiner" example="au"/>
+				<fusion value="P" description="with a pronoun" example="duquel"/>
+			</feature>
+		</category>
+		<category value="U" description="unknown form, such foreign citations..."/>
+		<category value="V" description="verb">
+			<feature position="2" description="nature">
+				<nature value="m" description="main" example="vendre"/>
+				<nature value="a" description="auxiliary 'avoir'" example="avoir"/>
+				<nature value="e" description="auxiliary 'être'" example="être"/>
+			</feature>
+			<feature position="3" description="mood">
+				<mood value="c" description="conditionnal"/>
+				<mood value="i" description="indicative"/>
+				<mood value="m" description="imperative"/>
+				<mood value="n" description="infinitive"/>
+				<mood value="p" description="participle"/>
+				<mood value="s" description="subjunctive"/>
+			</feature>
+			<feature position="4" description="tense">
+				<tense value="-" description="unspecified"/>
+				<tense value="f" description="future"/>
+				<tense value="i" description="imperfect"/>
+				<tense value="p" description="present"/>
+				<tense value="s" description="past"/>
+			</feature>
+			<feature position="5" description="person">
+				<person value="-" description="unspecified"/>
+				<person value="1" description="first person"/>
+				<person value="2" description="second person"/>
+				<person value="3" description="third person"/>
+			</feature>
+			<feature position="6" description="number">
+				<number value="-" description="unspecified"/>
+				<number value="s" description="singular"/>
+				<number value="p" description="plural"/>
+			</feature>
+			<feature position="7" description="gender">
+				<gender value="-" description="unspecified"/>
+				<gender value="m" description="masculine"/>
+				<gender value="f" description="feminine"/>
+			</feature>
+			<feature position="9" description="auxiliary">
+				<auxiliary value="-" description="unspecified"/>
+				<auxiliary value="a" description="avoir"/>
+				<auxiliary value="e" description="être"/>
+			</feature>
+			<feature position="10" description="pronominal">
+				<pronominal value="-" description="unspecified"/>
+				<pronominal value="i" description="never"/>
+				<pronominal value="o" description="always"/>
+				<pronominal value="p" description="acceptable"/>
+			</feature>
+			<feature position="11" description="personal">
+				<personal value="-" description="unspecified"/>
+				<personal value="p" description="personal"/>
+				<personal value="i" description="impersonal"/>
+				<personal value="d" description="defective"/>
+			</feature>
+			<feature position="12" description="transitivity">
+				<transitivity value="t" description="transitive"/>
+				<transitivity value="i" description="intransitive"/>
+				<transitivity value="-" description="transitive and intransitive"/>
+			</feature>
+			<feature position="13" description="complement">
+				<complement value="d" description="direct"/>
+				<complement value="i" description="indirect"/>
+				<complement value="-" description="direct and indirect"/>
+			</feature>
+		</category>
+		<category value="W" description="punctuation">
+			<feature position="2" description="nature">
+				<nature value="d" description="strong punctuation"  example="."/>
+				<nature value="m" description="weak punctuation"  example=","/>
+				<nature value="c" description="semi-column punctuation"  example=":"/>
+				<nature value="q" description="quote punctuation"  example="&quot;"/>
+				<nature value="e" description="etc punctuation"  example="etc"/>
+				<nature value="t" description="... punctuation"  example="..."/>
+			</feature>
+		</category>
+	</feature>
+</lpl_morphosyntax>
