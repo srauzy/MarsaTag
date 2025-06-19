@@ -1,4 +1,9 @@
-# The MarsaTag software
+# The `MarsaTag` project: A tagger for french written texts and speech transcriptions
+
+**Author:** Stéphane Rauzy, Aix Marseille University & CNRS, Laboratoire Parole et Language, Aix-en-Provence, France
+<br> **Scientific contributors:** Morgane Ader, Philippe Blache (LPL, CNRS & AMU), Grégoire Moreau de Montcheuil, Stéphane Rauzy (LPL, CNRS & AMU)
+
+## The MarsaTag software
 
 Scientific fields: Natural Language Processing, Automatic tagging of the syntax of written and
 spoken French.
@@ -39,7 +44,7 @@ French written texts and speech transcriptions. Second Asian Pacific Corpus ling
 syntaxique du français. Journée ATALA "Quels analyseurs syntaxiques pour le français ?", Oct 2009,
 Paris, France. pp.1-6. [⟨hal-00433879⟩](https://hal.science/hal-00433879v1)
 
-# Le logiciel MarsaTag
+## Le logiciel MarsaTag
 
 Domaine d’activité : Traitement Automatique des Langues, étiquetage syntaxique automatique du français écrit ou parlé
 
