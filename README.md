@@ -44,6 +44,10 @@ French written texts and speech transcriptions. Second Asian Pacific Corpus ling
 syntaxique du français. Journée ATALA "Quels analyseurs syntaxiques pour le français ?", Oct 2009,
 Paris, France. pp.1-6. [⟨hal-00433879⟩](https://hal.science/hal-00433879v1)
 
+***
+<img src="https://github.com/srauzy/MarsaTag/blob/main/images/marsatag_ui_ex_1.jpg" alt="HeadModel" height="130px"/> <img src="https://github.com/srauzy/MarsaTag/blob/main/images/logo_marsatag.png" alt="MarsaTagLogo" height="130px"/> <img src="https://github.com/srauzy/MarsaTag/blob/main/images/marsatag_output_ex_2.jpg" alt="MarsaTagOutpuptMARS" height="130px"/>
+***
+
 ## Le logiciel MarsaTag
 
 Domaine d’activité : Traitement Automatique des Langues, étiquetage syntaxique automatique du français écrit ou parlé
